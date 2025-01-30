@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="menu">
+        <div class="title">
+            <img id="img1" src="images/clock.png" alt="icon">
+            <h3>Clock</h3>
+        </div>
+        <div class="stopwatch">
+            <img id="img3" src="images/watch.png" alt="icon">
+            <h3>Stopwatch</h3>
+        </div>
+        <div class="timer">
+            <img id="img2" src="images/timer.jpg" alt="icon">
+            <h3>Timer</h3>
+        </div>
+        <div class="world">
+            <img id="img4" src="images/world.png" alt="icon">
+            <h3>World clock</h3>
+        </div>
+    </div>
+    <div class="main-container">
+    <div class="stopmain">
+        <h1 id="time">00:00:00</h1>
+        <div class="hr">
+        <h3>hr</h3>
+        <h3>min</h3>
+        <h3>sec</h3>
+        </div>
+        <div class="buttons">
+            <button id="b1" onclick="startClock()">
+                <img src="images/start.png" alt="Start">
+            </button>
+            <button id="b2" onclick="pauseClock()">
+                <img src="images/pause.png" alt="Stop">
+            </button>
+            <button id="b3" onclick="resetClock()">
+                <img src="images/reset.webp" alt="Reset">
+            </button>
+        </div>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
