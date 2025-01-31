@@ -37,17 +37,14 @@ background-color: rgba(0, 0, 0, 0.854);
 .timer h3, .stopwatch h3, .world h3 {
     margin-left: 15px;
 }
-.stopwatch{
-    background-color: rgba(102, 102, 102, 0.401);
-}
+
 .timer:hover, .stopwatch:hover, .world:hover {
     background-color: rgba(102, 102, 102, 0.401);
 }
 
-.timer:active, .stopwatch:active, .world:active {
+.timer.active, .stopwatch.active, .world.active {
     background-color: rgba(102, 102, 102, 0.401);
     border-left: 4px solid rgb(0, 255, 229); /* Adjust thickness and color */
-
 }
 #img1{
     height: 50px;
